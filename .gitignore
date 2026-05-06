@@ -1,0 +1,29 @@
+# Variáveis de ambiente (NUNCA commitar chaves de API!)
+.env
+.env.*
+!.env.example
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sessão do WhatsApp (dados de navegação persistente)
+whatsapp_session/
+
+# Banco de dados local
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Ambientes virtuais Python
+venv/
+.venv/
+env/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
